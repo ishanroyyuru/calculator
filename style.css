@@ -1,0 +1,59 @@
+html, body{min-height:100%;}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 500px;
+    width: 400x;
+    display: flex;
+    flex-direction: column;;
+    border: thick solid black;
+    background-color: black;
+}
+
+.under-screen {
+    display: flex;
+    flex-grow: 1;
+    gap: 1px;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.screen {
+    border: thin solid darkgray;
+    height: 100px;
+    margin: 2px;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 50px;
+    color: black;
+    max-width: 400px;
+}
+
+.numbers button {
+    min-height: 100px;
+    background-color: darkgray;
+}
+
+
+button {
+    min-width: 98px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+.operators button{
+    min-height: 80px;
+    background-color: orange;
+}
+
